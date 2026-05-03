@@ -1,28 +1,27 @@
 # 📚 Dijital Kütüphane Sistemi
 
-Kitap koleksiyonlarının yönetimi, ödünç alma süreçleri ve üye kayıtlarının hatasız takibi için geliştirilmiş profesyonel bir **Kütüphane Yönetim Yazılımı**dır.
+Kütüphanedeki kitapların listelendiği ve hangi kitabın kimde olduğunun takip edildiği temel bir **C# Windows Forms** kütüphane takip yazılımıdır.
 
 ---
 
 ## 🚀 Özellikler
 
-*   📖 **Kapsamlı Katalog:** Kitapların ISBN, yazar ve tür bilgilerine göre kaydedilmesi.
-*   🔄 **Ödünç/İade Takibi:** Kitapların hangi üyede olduğunun ve iade tarihlerinin yönetimi.
-*   👥 **Üye Organizasyonu:** Kütüphane üyelerinin iletişim ve işlem geçmişi takibi.
-*   🔍 **Hızlı Filtreleme:** Kitap adı veya yazara göre DataGridView üzerinden anlık arama.
+*   📖 **Kitap Kaydı:** Kitap adı, yazarı ve türü gibi bilgilerin eklenmesi.
+*   🔄 **Ödünç Takibi:** Kitabı alan üyenin adının ve iade tarihinin not alınması.
+*   🔍 **Arama:** Kitap ismine göre listede basit filtreleme yapılması.
+*   📦 **Stok Durumu:** Kitabın rafta mı yoksa bir üyede mi olduğunun işaretlenmesi.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-*   **C# (.NET)**
-*   **Windows Forms App**
-*   **Nesne Tabanlı Tasarım (OOP)**
+*   **C# (Windows Forms)**
+*   **.NET Framework**
 
 ---
 
 ## ⚙️ Kurulum ve Çalıştırma
 
-1.  **Solution'ı Başlatın:** Visual Studio ile ana projeyi açın.
-2.  **Tasarım Ekranı:** `Form1.cs` dosyasının tasarım modunda yüklendiğinden emin olun.
-3.  **Uygula:** **F5** tuşuna basarak dijital kütüphaneyi ayağa kaldırın.
+1.  Visual Studio ile `.sln` dosyasını başlatın.
+2.  Proje derlendikten sonra çalıştır butonuna basın.
+3.  Kitapları ve üyeleri ekleyerek ödünç verme işlemini deneyin.
